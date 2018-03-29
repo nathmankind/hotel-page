@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Hotel</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale=1" >
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>Hotel Booking</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.bookingContainer button {
+			margin: auto;
+			float: right;
+			color: #fff;
+		}
+		@media screen and (max-width: 965px){
+			.bookingContainer form input {
+			padding: 5px;
+		}
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div class="title">
+		<h1>DREAM<span style="color: #52bac3;">HOTEL</span></h1>
+	</div>
+	<div class="bookingContainer">
+							<p>Hotel Booking form</p>
+							<form action="#" method="POST">
+								<p>Name</p>
+								<input type="text" name="F_name" placeholder="First Name" required>
+								<input type="text" name="L_name" placeholder="Last Name" required>
+								<p>Email</p>
+								<input type="email" name="Email" placeholder="ex: myname@gmail.com" required>
+								<p>Room Type</p>
+								<select name="RoomTypes" required>
+									<option value="none">None</option>
+									<option value="master">Master</option>
+									<option value="king-size">king Size</option>
+									<option value="family">Family</option>
+								</select>
+								<p>Check In &amp; Time</p>
+								<input type="date" name="checkInDate" required>
+								<input type="time" name="checkInTime" required>
+								<p>Check Out &amp; Time</p>
+								<input type="date" name="checkOutDate">
+								<input type="time" name="checkOutTime">
+								<p>Number Of Guests</p>
+								<input type="number" name="guestNum" value="01" required>
+								<hr>
+								<button type="submit">BOOK NOW</button>
+							</form>
+						</div>
+
+</body>
+</html>

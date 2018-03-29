@@ -1,0 +1,30 @@
+body
+{
+	background-image:url("./assets/images/ban3.jpg");
+	font-family: sans-serif;
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: green;
+	text-align: center;
+}
+.bookingContainer
+{margin: auto;
+
+}
+.title h1 {
+	color: #fff;
+}
+
+.bookingContainer p
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.bookingContainer form input {
+	padding: 5px;
+}
+
