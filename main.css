@@ -501,10 +501,12 @@ right: 29px;
 }
 
 .firstName, .lastName, .phoneNo, .emailAdd {
-	width: 48%;
+	width: 47%;
 }
 .contact-form button {
-	margin: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
 	background-color: #e25829;
 	color: #fff;
 	border: 0;
@@ -685,11 +687,12 @@ iframe {
 	}
 	.navbar-form .input-group {
 		float: right;
+		width: 40%;
 	}
 }
 @media screen and (max-width: 770px){
 	.navbar-form .input-group {
-		width: 30%;
+		width: 40%;
 	}
 	.social-icon {
 		padding-left: 0;
@@ -786,7 +789,8 @@ iframe {
 		order: 1;
 	}
 	.gal-col-1-head h2 {
-	    font-size: 30px;
+	    font-size: 20px;
+	    padding-right: 2px;
 	}
 }
 @media screen and (max-width: 812px){
@@ -851,14 +855,15 @@ iframe {
     color: #616161;
     position: absolute;
     /* This trasform moves the drawer off canvas. */
-    -webkit-transform: translate(3000px, 0);
-    transform: translate(3000px, 0);
+    -webkit-transform: translate(-3000px, 0);
+    transform: translate(-3000px, 0);
     /* Optionally, we animate the drawer. */
     transition: transform 0.3s ease;
   }
   .navigation.open {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
+    width: 60%;
   }
   .nav__item {
     display: list-item;
@@ -910,9 +915,10 @@ iframe {
 @media screen and (max-width: 430px){
 	.firstName, .lastName, .phoneNo, .emailAdd, textarea {
 		width: 95%;
+		border-radius: 2px;
 	}
 	input, textarea {
-		border-top: initial;
+		border-radius: 2px;
 	}
 }
 @media screen and (max-width: 650px){
